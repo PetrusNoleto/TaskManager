@@ -34,7 +34,7 @@ tecnologias ultilizadas:
 </ul>
 <hr>
 <h3 id = "interfaceWebPaginaInicial">Pagina Inicial</h3>
-  <p>Essa é a pagina inicial do projeto se for a primeira vez usando a aplicação não haverá nunhuma tarefa criada.</p>
+  <p>Essa é a pagina inicial do projeto se for a primeira vez usando a aplicação não haverá nenhuma tarefa criada.</p>
   <p>Primeiro vamos nos conectar a api apertando no icone(nuvem) na parte superior da aplicação.</p>
 <img src = "/interface/mainPage.png">
  <h3 id = "interfaceWebConectandoApi">Conectando Interface WEB a API</h3>
