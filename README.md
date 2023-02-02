@@ -1,4 +1,4 @@
-<h1>Task Manager</h1>
+<h1>Task Manager v1.0.0(beta)</h1>
 <p> task manager foi criado com a intenção de aprimorar estudos sobre api rest</p>
 
 
@@ -8,6 +8,7 @@ links:
      <ol type = "1">
         <li><a href = "#interfaceWebPaginaInicial">pagina inicial</a></li>
         <li><a href = "#interfaceWebConectandoApi">Conectando Interface WEB a API</a></li>
+        <li><a href = "#interfaceWebCreateTask">Criando Uma Nova Tarefa</a></li>
      </ol>
    </li>
   <li><a href = "#interfaceWeb">api</a>
@@ -30,5 +31,6 @@ tecnologias ultilizadas:
  <h3 id = "#interfaceWebConectandoApi">Conectando Interface WEB a API</h3>
  <p>Após ter clicado aparecerá uma tela pedindo o link de conexão para a api </p>
 <img src = "/interface/connectapi.png">  
-<p>Caso ultilize a api disponibilizada nos arquivos deste projeto o ip padrão será o seu <strong>ipv4:3333/tasks/</strong> ou <strong>localhost:3333/tasks/</strong>.<strong>ATENÇÃO</strong> não conectar api com esse endereço <strong>ipv4:3333/tasks</strong> ou <strong>localhost:3333/tasks</strong>
-</p>
+<p>Caso ultilize a api disponibilizada nos arquivos deste projeto o ip padrão será o seu <strong>ipv4:3333/tasks/</strong> ou <strong>localhost:3333/tasks/</strong>.<strong>ATENÇÃO</strong> não conectar api com esse endereço <strong>ipv4:3333/tasks</strong> ou <strong>localhost:3333/tasks</strong>. Caso coloque esse endereços, não será possivel deletar as tarefas.</p>
+ <h3 id = "#interfaceWebCreateTask">Criando Uma Nova Tarefa</h3>
+<img src = "/interface/createtask.png"> 
