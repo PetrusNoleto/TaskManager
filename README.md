@@ -9,6 +9,7 @@ links:
         <li><a href = "#interfaceWebPaginaInicial">pagina inicial</a></li>
         <li><a href = "#interfaceWebConectandoApi">Conectando Interface WEB a API</a></li>
         <li><a href = "#interfaceWebCreateTask">Criando Uma Nova Tarefa</a></li>
+        <li><a href = "#interfaceWebCreatedTask">Tarefa Criada</a></li>
      </ol>
    </li>
   <li><a href = "#interfaceWeb">api</a>
@@ -33,4 +34,11 @@ tecnologias ultilizadas:
 <img src = "/interface/connectapi.png">  
 <p>Caso ultilize a api disponibilizada nos arquivos deste projeto o ip padrão será o seu <strong>ipv4:3333/tasks/</strong> ou <strong>localhost:3333/tasks/</strong>.<strong>ATENÇÃO</strong> não conectar api com esse endereço <strong>ipv4:3333/tasks</strong> ou <strong>localhost:3333/tasks</strong>. Caso coloque esse endereços, não será possivel deletar as tarefas.</p>
  <h3 id = "interfaceWebCreateTask">Criando Uma Nova Tarefa</h3>
+ <p>Após ter se conectado a api a interface web esta habilitada a criar e deletar tarefas.</p>
+ <p>Para criar uma tarefa clique no botão <strong>"criar tarefa"</strong> localizado no canto superior direito da aplicação.</p>
 <img src = "/interface/createtask.png"> 
+ <p>Após o clique aparecerá a tela de criação de tarefas, atualmente só está disponivel criar tarefas apenas com o titulo, crie um titulo da sua tarefa clique em criar tarefa.</p>
+ <h3 id = "interfaceWebCreatedTask">Tarefa Criada</h3>
+ <p>Após o clique você poderá ver que a tarefa foi criada. </p>
+<img src = "/interface/taskcreated.png"> 
+
