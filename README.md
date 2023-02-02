@@ -43,5 +43,5 @@ tecnologias ultilizadas:
  <p>Após o clique você poderá ver que a tarefa foi criada. </p>
 <img src = "/interface/taskcreated.png"> 
   <h3 id = "interfaceWebDeleteTask">Deletando a Tarefa</h3>
-  <p>Para deletar uma tarefa clique no icone(lixeira) e após clique no botão deletar que irá aparecer junto com a tela de confirmação.</p>
+  <p>Para deletar uma tarefa clique no icone(lixeira) e depois clique no botão deletar que irá aparecer junto com a tela de confirmação.</p>
 <img src = "/interface/deletetask.png">
