@@ -10,6 +10,7 @@ links:
         <li><a href = "#interfaceWebConectandoApi">Conectando Interface WEB a API</a></li>
         <li><a href = "#interfaceWebCreateTask">Criando Uma Nova Tarefa</a></li>
         <li><a href = "#interfaceWebCreatedTask">Tarefa Criada</a></li>
+        <li><a href = "#interfaceWebDeleteTask">Deletando Tarefa</a></li>
      </ol>
    </li>
   <li><a href = "#interfaceWeb">api</a>
@@ -41,4 +42,6 @@ tecnologias ultilizadas:
  <h3 id = "interfaceWebCreatedTask">Tarefa Criada</h3>
  <p>Após o clique você poderá ver que a tarefa foi criada. </p>
 <img src = "/interface/taskcreated.png"> 
-
+  <h3 id = "interfaceWebDeleteTask">Deletando a Tarefa</h3>
+  <p>Para deletar uma tarefa clique no icone(lixeira) e após clique no botão deletar que irá aparecer junto com a tela de confirmação.</p>
+<img src = "/interface/deletetask.png">
