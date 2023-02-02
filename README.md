@@ -2,7 +2,14 @@
 <p> task manager foi criado com a intenção de aprimorar estudos sobre api rest</p>
 
 
-links:
+Funcionalidades:
+<ul>
+  <li>Conexão com API</li>
+  <li>Criar Deletar Tarefas</li>
+</ul>
+
+
+Navegação:
 <ul>
   <li><a href = "#interfaceWeb">interfaceweb</a>
      <ol type = "1">
