@@ -1,0 +1,44 @@
+.header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.25);
+    background-color: var(--background);
+    position: fixed;
+}
+.headerBrand{
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--black);
+}
+.headerConnectApi{
+    width: 24px;
+    height: 24px;
+    cursor:  pointer;
+}
+.headerNewTask{
+    width: 120px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: var(--blue);
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--white);
+    transition: all linear 250ms;
+}
+.headerNewTask:hover{
+    background-color: var(--white);
+    border: 2px solid var(--blue);
+    color: var(--blue);
+
+}

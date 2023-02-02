@@ -1,0 +1,110 @@
+.modalCreateBox{
+    width: 100vw;
+    height: 100vh;
+    background-color: #17171775;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalCreateTask{
+    width: 600px;
+    height: 500px;    
+    background-color: #ffff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+
+.modalCreateForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 400px;
+    gap: 12px;
+}
+.modalCreateFormLabel{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    padding: 12px;
+}
+.modalCreateFormLabel:nth-child(1){
+    align-items: flex-start;
+    text-align: start;
+    padding: 0px 20px;
+    gap: 12px;
+}
+.modalCreateFormLabel:nth-child(2){
+    align-items: flex-start;
+    text-align: start;
+    padding: 0px 20px;
+    gap: 12px;
+}
+.modalCreateFormLabelInput{
+    width: 500px;
+    height: 50px;
+    background-color: var(--white);
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    margin: auto;
+    padding: 10px;
+
+}
+.modalCreateFormLabelTextArea{
+    width: 500px;
+    height: 250px;
+    background-color: var(--white);
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    resize: none;
+    padding: 10px;
+}
+.ModalCreateButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.ModalCreateButton{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+
+}
+.createTaskButton{
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 10px;
+}
+.createTaskButton:hover{
+    color: var(--blue);
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+}
+
+.cancelCreateButton{
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.cancelCreateButton:hover{
+    
+    border: 1px solid var(--gray);
+}

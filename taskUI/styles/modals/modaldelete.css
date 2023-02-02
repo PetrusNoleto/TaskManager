@@ -1,0 +1,115 @@
+@keyframes openModalTransition { 
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+}
+
+@keyframes openModalTransition2{
+    from{
+    
+        height: 0px;
+    }
+    to{
+     
+        height:200px;
+    }
+
+}
+
+
+.modalDeleteBox{
+    width: 100vw;
+    height: 100vh;
+    background-color: #17171775;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: openModalTransition 600ms linear;
+    
+}
+.modalDelete{
+    width: 400px;
+    height: 200px;
+    background-color: #ffff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;;
+    overflow: hidden;
+}
+.modalDeleteImageBox{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modalDeleteImage{
+    width: 100%;
+    height: 100%;
+    fill: var(--red);
+}
+
+.modalDeleteText{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.modalDeleteTextInfo{
+    font-size: 20px;
+    font-weight: 700;
+}
+.modalDeleteTextDesk{
+    font-size: 14px;
+    font-weight: 400;
+}
+.modalDeleteButtons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  
+
+}   
+.modalDeleteButton{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.deleteButton{
+    background-color: var(--red);
+    color: var(--white);
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.deleteButton:hover{
+    color: var(--red);
+    background-color: var(--white);
+    border: 1px solid var(--red);
+
+}
+.cancelButton{
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.cancelButton:hover{
+    
+    border: 1px solid var(--gray);
+}

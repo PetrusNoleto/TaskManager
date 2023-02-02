@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pnTodoList </title>
+    <link rel = "stylesheet" href = "styles/import.css">
+  
+    <link rel="icon" type="image/x-icon" href="/assets/icons/brand.svg">
+    <script src ="/scripts/CreateTaskModal/openCreateModal.js" defer ></script>
+    <script src ="/scripts/CreateTaskModal/createNewTask.js" defer ></script>
+    <script src="/scripts/connectModal/openConnectModal.js" defer></script>
+    <script src="/scripts/connectModal/getApiLink.js" defer></script>
+    <script src = "/scripts/GetTasksApi/connect.js" defer></script>
+    <script src = "/scripts/editModal/editTask.js" defer></script>
+   
+
+    
+</head>
+<body onload="mostrarTask() " >
+         <section class="modalEditBox hidden">
+                <div class="modalEditTask"> 
+                      <form id = "modalEditLabelForm"class="modalEditLabelForm" action="">
+                        <label class="modalEditLabel">
+                               Novo Title
+                               <input  type="text" class="modalEditFormLabelInput" id = "titleEditInput"  placeholder="http://localhost/">
+                         </label>
+                         <div class="ModalEditButtons">
+                                 <button  class=" ModalEditButton editTaskButton" type="submit" form="modalEditLabelForm">confirmar</button>
+                                 <button class="ModalEditButton cancelEditButton" type="button">cancelar</button> 
+                         </div>
+                        </form>
+                 </div>
+         </section>
+
+        <section class="connectApiModalBox hidden">
+               <div class="connectApiModal">
+                        <label class="connectApiModalLabel">
+                                Endereço da api
+                                <input  type="text" class="connectApiModalLabelInput"  placeholder="http://localhost/">
+                        </label>
+                        <div class="connectApiModaButtonBtns">
+                                <button onclick="getApiLink()" class="connectApiModaButtonConnect" type="button">connectar</button>
+                                <button class="connectApiModaButtonCancel" type="button">cancelar</button> 
+                        </div>
+                </div>
+        </section>
+
+
+
+    <section class="modalCreateBox hidden">
+                <div class="modalCreateTask">
+                        <cite class="modalCreateCite">Criar Tarefa</cite>
+                        <form action="" method="post"  class="modalCreateForm" id="modalCreateForm">
+                                <label class="modalCreateFormLabel">
+                                         Titulo da Tarefa<br>
+                                        <input  type="text" class="modalCreateFormLabelInput " id = "titleInput">
+                                </label>
+                                <label class="modalCreateFormLabel hidden" >
+                                        Descrição da Tarefa  <br>
+                                        <textarea  class="modalCreateFormLabelTextArea"></textarea>
+                              </label>
+                        </form>
+                        <div class="ModalCreateButtons">
+                                <button onclick="createNewTask()"  form="modalCreateForm" class="ModalCreateButton createTaskButton" >Criar Tarefa</button>
+                                <button class="ModalCreateButton cancelCreateButton">Cancelar</button>
+                        </div>
+                </div>
+    </section>
+    
+    
+    <section class="modalDeleteBox hidden">
+        <div class="modalDelete">
+                <div class="modalDeleteImageBox">
+                    <svg  class="modalDeleteImage" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zm32 224c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32z"/></svg>
+                </div>
+                <div class="modalDeleteText">
+                    <span class="modalDeleteTextInfo">Tem certeza? </span>
+                    <span class="modalDeleteTextDesk">Você não será capaz de reverter isso! </span>
+                </div>
+                <div class="modalDeleteButtons">
+                        <button class="modalDeleteButton deleteButton">deletar</button>
+                        <button class="modalDeleteButton cancelButton">cancelar</button>
+                </div>
+        </div>
+    </section>
+  
+    <header class="header">
+            <a href="/" class="headerBrand">pntasks </a>
+            <img class="headerConnectApi openConnectModal" src="./assets/icons/cloud-solid.svg">
+
+
+
+
+            <button class="headerNewTask" type="button">CriarTarefa</button>
+    </header>
+    <main class="main" >
+            <div class="mainContent" >
+                    <h1 class="mainContentTitle">Tasks</h1>
+                    <section  class="tasksListBox" >
+                          
+                        
+
+
+                      
+                    </section>
+                  
+            </div>
+    </main>
+
+
+   
+  
+</body>
+</html>
