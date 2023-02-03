@@ -60,7 +60,7 @@ tecnologias ultilizadas:
 
 Funcionalidades:
 <ul>
-  <li>Receber Dados e enviar dados para uma interface!</li>
+  <li>Receber e enviar dados para uma interface!</li>
   <li>Manipular Banco de Dados</li>
 </ul>
 
