@@ -2,11 +2,7 @@
 <p> task manager foi criado com a intenção de aprimorar estudos sobre api rest</p>
 
 
-Funcionalidades:
-<ul>
-  <li>Conexão com API</li>
-  <li>Criar Deletar Tarefas</li>
-</ul>
+
 
 
 Navegação:
@@ -26,6 +22,13 @@ Navegação:
 
 
 <h2 id = "interfaceWeb">Interface Web</h2>
+Funcionalidades:
+<ul>
+  <li>Conexão com API</li>
+  <li>Criar Deletar Tarefas</li>
+</ul>
+
+
 tecnologias ultilizadas:
 <ul>
   <li>Html</li>
@@ -54,3 +57,20 @@ tecnologias ultilizadas:
 <img src = "/interface/deletetask.png">
 <hr>
 <h2 id = "API">API</h2>
+
+Funcionalidades:
+<ul>
+  <li>Receber Dados</li>
+</ul>
+
+tecnologias ultilizadas:
+<ul>
+  <li>NodeJS</li>
+  <li>Express</li>
+  <li>Prisma</li>
+  <li>Cors</li>
+  <li>Typescript</li>
+</ul>
+
+
+
