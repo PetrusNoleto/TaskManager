@@ -70,7 +70,8 @@ tecnologias ultilizadas:
   <li>Express</li>
   <li>Prisma</li>
   <li>Cors</li>
-  <li>Typescript</li>
+  <li>Typescript <strong>Ferramenta de desenvolvimento</strong></li>
+  <li>TS-NODE-DEV <strong>Ferramenta de desenvolvimento</strong></li>
 </ul>
 
 
