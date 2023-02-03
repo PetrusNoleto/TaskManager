@@ -74,5 +74,13 @@ tecnologias ultilizadas:
   <li>TS-NODE-DEV <strong>Ferramenta de desenvolvimento</strong></li>
 </ul>
 
+Rotas:
+<ul>
+  <li>GET(tasks/) busca dados no banco</li>
+  <li>POST(tasks/) insere um novo dado no banco</li>
+  <li>PUT(tasks/:id) edita um determinado dado no banco</li>
+  <li>DELETE(tasks/:id) deleta um determinado dado no banco</li>
+</ul>
+
 
 
