@@ -83,5 +83,11 @@ Rotas:
 </ul>
 <hr>
 <h2 id = "Comoiniciarapi">Como iniciar a API?</h2>
+ requisistos:
+<ul>
+  <li>Ter o NodeJS instalado</li>
+  <li>Terminal onde sera digirado o comando de inicialização</li>
+</ul>
+ 
  <p>Para iniciar abra seu terminal (windows/linux/mac) na pasta da api e ultilize o seguinte comando: <strong>node app.js</strong></p>
  <p>Após o comando ser execultado espere até aparecer "api conectada" no terminal.</p>
