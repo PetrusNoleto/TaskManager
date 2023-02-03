@@ -86,7 +86,7 @@ Rotas:
  requisistos:
 <ul>
   <li>Ter o NodeJS instalado</li>
-  <li>Terminal onde sera digirado o comando de inicialização</li>
+  <li>Terminal onde será digirado o comando de inicialização</li>
 </ul>
  
  <p>Para iniciar abra seu terminal (windows/linux/mac) na pasta da api e ultilize o seguinte comando: <strong>node app.js</strong></p>
