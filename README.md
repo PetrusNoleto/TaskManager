@@ -81,6 +81,7 @@ Rotas:
   <li>PUT(tasks/:id) edita um determinado dado no banco</li>
   <li>DELETE(tasks/:id) deleta um determinado dado no banco</li>
 </ul>
-
-
-
+<hr>
+<h2 id = "Comoiniciarapi">Como iniciar a API?</h2>
+ <p>Para iniciar abra seu terminal (windows/linux/mac) na pasta da api e ultilize o seguinte comando: <strong>node app.js</strong></p>
+ <p>Após o comando ser execultado espere até aparecer "api conectada" no terminal.</p>
