@@ -53,4 +53,4 @@ tecnologias ultilizadas:
   <p>Para deletar uma tarefa clique no icone(lixeira) e depois clique no botão deletar que irá aparecer junto com a tela de confirmação.</p>
 <img src = "/interface/deletetask.png">
 <hr>
-<h2 id = "interfaceWeb">API</h2>
+<h2 id = "API">API</h2>
